@@ -2,7 +2,7 @@
 BRANCH="master"
 
 # OpenXT git repositories. Optionally replace with a local mirror.
-OPENXT_GIT_MIRROR="github.com/OpenXT"
+OPENXT_GIT_MIRROR="github.com/HyperXT"
 OPENXT_GIT_PROTOCOL="git"
 
 # Optional mirror of upstream OpenEmbedded git repositories.
@@ -12,7 +12,7 @@ OE_GIT_MIRROR=
 OPENXT_MIRROR="http://mirror.openxt.org"
 
 # Used to construct build name.
-NAME_SITE="openxt"
+NAME_SITE="hyperxt"
 BUILD_TYPE="dev"
 
 # Disables bitbake's "rm_work" task. Leaves sources in build tree at end.
