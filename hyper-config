@@ -2,7 +2,7 @@
 BRANCH="master"
 
 # OpenXT git repositories. Optionally replace with a local mirror.
-OPENXT_GIT_MIRROR="github.com/OpenXT"
+OPENXT_GIT_MIRROR="github.com/HyperXT"
 OPENXT_GIT_PROTOCOL="git"
 
 # Optional mirror of upstream OpenEmbedded git repositories.
@@ -12,7 +12,7 @@ OE_GIT_MIRROR=
 OPENXT_MIRROR="http://mirror.openxt.org"
 
 # Used to construct build name.
-NAME_SITE="openxt"
+NAME_SITE="hyperxt"
 BUILD_TYPE="dev"
 
 # Disables bitbake's "rm_work" task. Leaves sources in build tree at end.
@@ -31,10 +31,10 @@ INHIBIT_RMWORK="yes"
 # then be re-signed by the production signing key.
 #
 # TODO: Explain how to generate these files.
-REPO_PROD_CACERT=
-REPO_DEV_CACERT=
-REPO_DEV_SIGNING_CERT=
-REPO_DEV_SIGNING_KEY=
+REPO_PROD_CACERT="${TOPDIR}/certs/prod-cacert.pem"
+REPO_DEV_CACERT="${TOPDIR}/certs/dev-cacert.pem"
+REPO_DEV_SIGNING_CERT="${TOPDIR}/certs/dev-cacert.pem"
+REPO_DEV_SIGNING_KEY="${TOPDIR}/certs/dev-cakey.pem"
 
 # NEVER_GET_LOG disable log collection, which makes the build faster
 #NEVER_GET_LOG=1
