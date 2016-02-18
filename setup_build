@@ -67,7 +67,7 @@ META_QT5_REPO=git://github.com/meta-qt5/meta-qt5.git
 META_QT5_TAG=f432ddee16a33136a107ddbc70e1d36a18d7990a
 
 META_HYPERXT_REPO=git://github.com/hyperxt/meta-hyperxt.git
-META_HYPERXT_TAG=${BRANCH}
+META_HYPERXT_TAG=${XENCLIENT_TAG}
 
 # End of configuration
 
